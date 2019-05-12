@@ -274,7 +274,42 @@ font-size: 10px;
   #zagl {
 	text-align: right;
  }
+	.butonl {
+	float: left;
+	margin-top: 50px;
+	margin-left: 2px;
+
+} 
+
+.butonr {
+	
+	float: right;
+	margin-top: 50px;
+	margin-right: 2px;
 }
+
+#myImage {
+	
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+}
+
+#myImage2 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 1px;
+	width: 50%;
+}
+
+#myImage3 {
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+}
+}
+
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right, .menuitem, .menuitem1 {
