@@ -179,14 +179,23 @@ width: 40%;
 	margin-top: 200px;
 }
 
+#myImage {
+	
+	margin-top: 20px;
+	width: 59%;
+}
+
 #myImage2 {
 	margin-left: 7px;
 	margin-top: 20px;
+	width: 59%;
 }
 
 #myImage3 {
-	margin-left: 1px;
+	
 	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 59%;
 }
 
 
@@ -300,5 +309,39 @@ font-size: 10px;
 #zagl {
 	text-align: right;
   text-shadow: 1px 2px green;
+}
+
+.butonl {
+	float: left;
+	margin-top: 50px;
+
+} 
+
+.butonr {
+	
+	float: right;
+	margin-top: 50px;
+	margin-right: 4px;
+}
+
+#myImage {
+	
+	float: left;
+	margin-top: 20px;
+	width: 55%;
+}
+
+#myImage2 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 1px;
+	width: 55.5%;
+}
+
+#myImage3 {
+	float: left;
+	margin-top: 20px;
+	width: 56%;
 }
 }
