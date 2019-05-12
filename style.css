@@ -354,6 +354,7 @@ font-size: 10px;
 	float: left;
 	margin-top: 50px;
 	margin-left: 2px;
+	width: 15%;
 
 } 
 
@@ -362,6 +363,7 @@ font-size: 10px;
 	float: right;
 	margin-top: 50px;
 	margin-right: 2px;
+	width: 15%;
 }
 
 #myImage {
