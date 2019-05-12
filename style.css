@@ -103,6 +103,9 @@ width: 40%;
 	background-color: darkblue;
 	padding-left: 5px;
 }
+.desen1 a {
+	color: white;
+}
 
 .desen:hover {
 	 background-color: darkblue;
@@ -163,6 +166,27 @@ width: 40%;
 	float: left;
 	width: 50%;
 	color: white;
+}
+
+.butonl {
+	float: left;
+	margin-right: 20px;
+	margin-top: 200px;
+} 
+
+.butonr {
+	float: right;
+	margin-top: 200px;
+}
+
+#myImage2 {
+	margin-left: 7px;
+	margin-top: 20px;
+}
+
+#myImage3 {
+	margin-left: 1px;
+	margin-top: 20px;
 }
 
 
