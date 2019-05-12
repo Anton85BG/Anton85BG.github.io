@@ -77,13 +77,13 @@ a {
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
-  background-color: #66CDAA;
+  background-color: #00BFFF;
 }
 .right {
  
   float: left;
   width: 40%;
-  background-color: #66CDAA;
+  background-color: #00BFFF;
 
 }
 
@@ -100,7 +100,7 @@ width: 40%;
 
 .desen1 {
 	border: 1px solid blue;
-	background-color: darkblue;
+	background-color: #1E90FF;
 	padding-left: 5px;
 }
 .desen1 a {
@@ -108,7 +108,7 @@ width: 40%;
 }
 
 .desen:hover {
-	 background-color: darkblue;
+	 background-color: #1E90F;
 	 padding-left: 10px;
 }
 
@@ -119,7 +119,7 @@ width: 40%;
 #empty {
 	width: 533px;
 	height: 385px;
-	background-color: lightblue;
+	background-color: #00BFFF;
 	margin: 0;
 	
 }
@@ -130,10 +130,10 @@ width: 40%;
 }
 
 #vid {
-	background-color: #3CB371;
+	background-color: #00CED1;
 	text-align: center;
 	margin: 0;
-	box-shadow: 2px 5px 2px 2px #2E8B57;
+	box-shadow: 2px 5px 2px 2px #4682B4;
 	width: 99%;
 }
 
@@ -147,7 +147,7 @@ width: 40%;
 }
 
 .footer {
-	background-color: #008080;
+	background-color: #00CED1;
 	text-align:left;
 	padding:10px;
 	margin-top:7px;
@@ -158,7 +158,7 @@ width: 40%;
 }
 
 .footer2 {
-	background-color: #008080;
+	background-color: #00CED1;
 	text-align:right;
 	padding:10px;
 	margin-top:7px;
