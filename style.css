@@ -216,6 +216,9 @@ font-size: 10px;
 	  height: 10px;
 	  width: 100%;
   }
+  iframe {
+	  height: 180px;
+  }
   
   #map2 {
 	
