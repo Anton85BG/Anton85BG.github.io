@@ -206,10 +206,6 @@ width: 40%;
 	width: 30%;
 font-size: 10px;	
   }
-	.menuitem1 {
-	width: 30%;
-font-size: 10px;	
-  }
   
   #zagl {
 	  font-size: 20px;
@@ -233,11 +229,11 @@ font-size: 10px;
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .menuitem {
-	width: 30%;
+	width: 32.5%;
 font-size: 10px;	
   }
   .menuitem1 {
-	width: 30%;
+	width: 32.5%;
 font-size: 10px;	
   }
   
@@ -252,7 +248,7 @@ font-size: 10px;
   
   .main {
     width: 100%;
-    padding: 0;
+    padding: 0px;
   }
   .right {
     width: 100%;
@@ -274,49 +270,15 @@ font-size: 10px;
   #zagl {
 	text-align: right;
  }
-	.butonl {
-	float: left;
-	margin-top: 50px;
-	margin-left: 2px;
-
-} 
-
-.butonr {
-	
-	float: right;
-	margin-top: 50px;
-	margin-right: 2px;
 }
-
-#myImage {
-	
-	float: left;
-	margin-top: 20px;
-	width: 50%;
-}
-
-#myImage2 {
-	float: left;
-	margin-top: 20px;
-	margin-left: 0px;
-	margin-right: 1px;
-	width: 50%;
-}
-
-#myImage3 {
-	float: left;
-	margin-top: 20px;
-	width: 50%;
-}
-}
-
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right, .menuitem, .menuitem1 {
     width: 100%;
   }
   .main {
-	  padding-left: 5px;
+	  padding: 0px;
+	  margin: 0px;
   }
   
   .menuitem, .menuitem1 {
@@ -328,8 +290,7 @@ font-size: 10px;
   }
   #bg {
 	  height: 150px;
- background-image: url('zagl2.jpg'); 
-	}
+  }
   
   #empty {
 	  height: 3px;
@@ -338,7 +299,10 @@ font-size: 10px;
   iframe {
 	  height: 180px;
   }
-	
+  #bg {
+	background-image: url('zagl2.jpg');
+}
+
 #img {
 	margin-top: 8px;
 }
@@ -352,14 +316,16 @@ font-size: 10px;
 	float: left;
 	margin-top: 50px;
 	margin-left: 2px;
+	margin-right: 2px;
 	
 
 } 
 
 .butonr {
 	
-	float: right;
+	
 	margin-top: 50px;
+	margin-left: 2px;
 	margin-right: 2px;
 	
 }
@@ -367,21 +333,25 @@ font-size: 10px;
 #myImage {
 	
 	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
 	margin-top: 20px;
-	width: 50%;
+	width: 59%;
 }
 
 #myImage2 {
 	float: left;
 	margin-top: 20px;
-	margin-left: 0px;
+	margin-left: 1px;
 	margin-right: 1px;
-	width: 50%;
+	width: 59%;
 }
 
 #myImage3 {
 	float: left;
 	margin-top: 20px;
-	width: 50%;
+	margin-right: 1px;
+	margin-left: 1px;
+	width: 59%;
 }
 }
