@@ -98,6 +98,12 @@ width: 40%;
 	padding-left: 5px;
 }
 
+.desen1 {
+	border: 1px solid blue;
+	background-color: darkblue;
+	padding-left: 5px;
+}
+
 .desen:hover {
 	 background-color: darkblue;
 	 padding-left: 10px;
@@ -158,6 +164,8 @@ width: 40%;
 	width: 50%;
 	color: white;
 }
+
+
 
 @media only screen and (max-width:1000px) {
   /* For tablets: */
