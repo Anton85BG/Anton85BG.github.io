@@ -310,7 +310,7 @@ font-size: 10px;
 }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
   /* For mobile phones: */
   .menu, .main, .right, .menuitem, .menuitem1 {
     width: 100%;
