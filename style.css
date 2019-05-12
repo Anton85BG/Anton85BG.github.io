@@ -310,7 +310,7 @@ font-size: 10px;
 }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right, .menuitem, .menuitem1 {
     width: 100%;
@@ -328,7 +328,8 @@ font-size: 10px;
   }
   #bg {
 	  height: 150px;
-  }
+ background-image: url('zagl2.jpg'); 
+	}
   
   #empty {
 	  height: 3px;
@@ -337,10 +338,7 @@ font-size: 10px;
   iframe {
 	  height: 180px;
   }
-  #bg {
-	background-image: url('zagl2.jpg');
-}
-
+	
 #img {
 	margin-top: 8px;
 }
@@ -354,7 +352,7 @@ font-size: 10px;
 	float: left;
 	margin-top: 50px;
 	margin-left: 2px;
-	width: 15%;
+	
 
 } 
 
@@ -363,7 +361,7 @@ font-size: 10px;
 	float: right;
 	margin-top: 50px;
 	margin-right: 2px;
-	width: 15%;
+	
 }
 
 #myImage {
