@@ -43,13 +43,13 @@ a {
     margin-bottom: 4px;
   border: 2px solid blue;
   float: left;
-  background-color: darkblue;
+  background-color: #1E90FF	;
   color: white;
   
 }
 
 .menuitem:hover {
-	background-color: darkblue;
+	background-color: #1E90FF	;
 	color: white;
 	}
 
@@ -77,18 +77,18 @@ a {
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #66CDAA;
 }
 .right {
  
   float: left;
   width: 40%;
-  background-color: lightblue;
+  background-color: #66CDAA;
 
 }
 
 # new1 {
-background-color: lightblue;
+background-color: #20B2AA;
 width: 40%;
 }
 
@@ -130,10 +130,10 @@ width: 40%;
 }
 
 #vid {
-	background-color: lightgreen;
+	background-color: #3CB371;
 	text-align: center;
 	margin: 0;
-	box-shadow: 2px 5px 2px 2px green;
+	box-shadow: 2px 5px 2px 2px #2E8B57;
 	width: 99%;
 }
 
@@ -147,7 +147,7 @@ width: 40%;
 }
 
 .footer {
-	background-color: darkblue;
+	background-color: #008080;
 	text-align:left;
 	padding:10px;
 	margin-top:7px;
@@ -158,7 +158,7 @@ width: 40%;
 }
 
 .footer2 {
-	background-color: darkblue;
+	background-color: #008080;
 	text-align:right;
 	padding:10px;
 	margin-top:7px;
