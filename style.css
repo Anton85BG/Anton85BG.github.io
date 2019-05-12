@@ -43,13 +43,13 @@ a {
     margin-bottom: 4px;
   border: 2px solid blue;
   float: left;
-  background-color: #1E90FF	;
+  background-color: #1E90FF;
   color: white;
   
 }
 
 .menuitem:hover {
-	background-color: #1E90FF	;
+	background-color: #1E90FF;
 	color: white;
 	}
 
@@ -108,7 +108,7 @@ width: 40%;
 }
 
 .desen:hover {
-	 background-color: #1E90F;
+	 background-color: #1E90FF;
 	 padding-left: 10px;
 }
 
