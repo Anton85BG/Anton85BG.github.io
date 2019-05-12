@@ -314,6 +314,7 @@ font-size: 10px;
 .butonl {
 	float: left;
 	margin-top: 50px;
+	margin-left: 2px;
 
 } 
 
@@ -321,14 +322,14 @@ font-size: 10px;
 	
 	float: right;
 	margin-top: 50px;
-	margin-right: 4px;
+	margin-right: 2px;
 }
 
 #myImage {
 	
 	float: left;
 	margin-top: 20px;
-	width: 55%;
+	width: 50%;
 }
 
 #myImage2 {
@@ -336,12 +337,12 @@ font-size: 10px;
 	margin-top: 20px;
 	margin-left: 0px;
 	margin-right: 1px;
-	width: 55.5%;
+	width: 50%;
 }
 
 #myImage3 {
 	float: left;
 	margin-top: 20px;
-	width: 56%;
+	width: 50%;
 }
 }
