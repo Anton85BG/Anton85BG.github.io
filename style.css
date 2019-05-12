@@ -212,6 +212,10 @@ font-size: 10px;
   .right {
     width: 100%;
   }
+   #empty {
+	  height: 10px;
+	  width: 100%;
+  }
   
   #map2 {
 	
