@@ -275,6 +275,10 @@ font-size: 10px;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
+  body {
+	margin: 0 auto;
+	}
+	
   .menu, .main, .right, .menuitem, .menuitem1 {
     width: 100%;
   }
