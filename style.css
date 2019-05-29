@@ -2,177 +2,171 @@
   box-sizing: border-box;
 }
 
-
-/* Проба за това линковете да не излизат подчертани, а да се подчертават само при посочване с мишката върху тях*/
-
-
-
-
 body {
-	background: url(fonposle1.jpg) fixed no-repeat; 
-	background-size: cover;
-	/* width: 100%; */
-	/* height:100%; */
-	/* display: block; */
-	margin: 0 auto;
-	font-family: Cormorant, Tahoma, sans-serif;
-	font-size: 18px;
+	font-family:Verdana;
 	
-	/* font-family:Verdana; */
-	/* background-image: url('fonposle1.jpg'); */
-	/* width: 100%; */
-	/* height:100%; */
-	/* background-size: cover; */
+	
+}
+
+#zagl {
+	text-align: center;
+  text-shadow:3px 3px green;
+
 }
 
 a {
 	text-decoration: none;
 }
 
-.header-text {
-	font-size: 2.3rem;
-	text-align: center;
-	text-shadow:2px 2px white;
-	color:#0A0;
+
+
+.menuitem {
+
+	width: 16.1%;
+	height: 65px;
+  text-align: center;
+  margin-top: 4px;
+   margin-left: 6px;
+    margin-bottom: 4px;
+  border: 2px solid blue;
+  float: left;
+  
+   
+}
+
+.menuitem1 {
+	width: 16.1%;
+	height: 65px;
+  text-align: center;
+  margin-top: 4px;
+   margin-left: 6px;
+    margin-bottom: 4px;
+  border: 2px solid blue;
+  float: left;
+  background-color: #1E90FF	;
+  color: white;
   
 }
 
-.menu {	
-	float: left;
-	width: 20%;
-	font-size: 1.5em;
-	font-weight: solid;
-	text-shadow: 2px 0px #0A0;
-	padding: 10px;
-	margin-top: 7px;
-    /* do tuk da se komentirat */
-	color: white;
-
-	/* width: 20%; */
-	/* float: left; */
-	/* font-size: 1.5em; */
-	/* font-weight: solid; */
-	/* text-shadow: 2px 0px #0A0; */
-}
-.menuitem {
-	padding: 0.3em;
-	text-align: center;
-	border: 3px solid #0a0;
-	margin-top: 7px;
-}
-
-/* .menuitem:last-child {   */
-	/* border-bottom: 4px solid #0a0; */
-	/* padding: 0.3em; */
-	/* text-align: center; */
-/* } */
-
-.menuitem1 {
-	text-align: center;
-	background-color: #07f;
-	padding: 0.3em;
-	border: 3px solid #0a0;  
-}
-
 .menuitem:hover {
-	background-color: #07f;
-}
-
-#logo {
-	margin-left: 10px;
-	width: 90%;
-	height: auto;
-}
-
-#bgcpo {
+	background-color: #1E90FF	;
 	color: white;
-	font-weight: bold;
+	}
+
+.menuitem:hover a{
+	color: white;
 }
 
-/* #iframe { */
-	 /* padding-left: 2px; */
-	 /* padding-right: 2px; */
-/* } */
-
-.right-item:hover {
-	background-color: #07f;
-}
-
-/* .right-item:hover a { */
-	/* text-decoration: underline; */
-	/* text-decoration-color: black; */
-/* } */
-
-.right-item {
-	font-size: 1.5em;
-	padding: 0.5em;
-	border: 3px solid #0a0;
-	font-size: 1.1em; 
-}
-
-.right-item:first-child {
-	margin-bottom: 7px;
-}
-
-#subtitle {
-	color: black;
-	text-align: center;
-}
-
-#header {
-	height: 200px;
-	width: 100%;
-	display: block;
-	background-color: transparent;
-	border: 3px solid #0b0;
+#bg {
+	background-image: url('fon1.png');
+	height: 150px;
+	width:100%;
+	
 }
 
 #img {
 	display: block;
-	width:400px;
-	height: 510px;
+	width:50%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#img2 {
-	width: 50px;
-	height: 45px;
-	top: 637px;
-	left: 1295px;
-	position: fixed;
-}
-
-#map {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 45%;
-	height: auto;
-}
-
-h5, h4, h3, h1 {
-	color:white;
-}
-
-
-#koza {
-	float: right;
-	padding-bottom: 5px;
-}
-
-#edelweis {
-	float: left;
-	margin-right: 8px;
-}
 
 .main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  background-color: #00BFFF;
+}
+.right {
+ 
+  float: left;
+  width: 40%;
+  background-color: #00BFFF;
+
+}
+
+# new1 {
+background-color: #20B2AA;
+width: 40%;
+}
+
+.desen {
+	border: 1px solid blue;
+	background-color: white;
+	padding-left: 5px;
+}
+
+.desen1 {
+	border: 1px solid blue;
+	background-color: #1E90FF;
+	padding-left: 5px;
+}
+.desen1 a {
+	color: white;
+}
+
+.desen:hover {
+	 background-color: #1E90FF;
+	 padding-left: 10px;
+}
+
+.desen:hover a {
+	 color: white;
+}
+
+#empty {
+	width: 533px;
+	height: 493px;
+	background-color: #00BFFF;
+	margin: 0;
+	
+}
+
+#pp {
+	padding-top: 10px;
+	text-shadow: 1px 1px blue;
+	color: #32CD32;
+}
+
+#vid {
+	background-color: #1E90FF;
+	text-align: center;
+	margin: 0;
+	box-shadow: 2px 5px 2px 2px #4682B4;
+	width: 99%;
+}
+
+#map2 {
+	padding-left: 5px;
+	/* float: left; */
+	width: 100%;
+	height: 736px;
+	/* height: 500px;  */
+	
+}
+
+.footer {
+	background-color: #1E90FF;
+	text-align:left;
+	padding:10px;
+	margin-top:7px;
+	font-size:12px;
 	float: left;
-	width: 60%;
-	padding: 0.5em 1.5em;
-	margin-top: 5px;
-	overflow: hidden;
-	background-color:  #07f; 
+	width: 50%;
+	color: white;
+}
+
+.footer2 {
+	background-color: #1E90FF;
+	text-align:right;
+	padding:10px;
+	margin-top:7px;
+	font-size:12px;
+	float: left;
+	width: 50%;
+	color: white;
 }
 
 .butonl {
@@ -186,126 +180,179 @@ h5, h4, h3, h1 {
 	margin-top: 200px;
 }
 
+#myImage {
+	
+	margin-top: 20px;
+	width: 59%;
+}
+
 #myImage2 {
 	margin-left: 7px;
 	margin-top: 20px;
+	width: 59%;
 }
 
 #myImage3 {
-	margin-left: 7px;
+	
 	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 59%;
 }
 
-.right {
-	float: left;
-	width: 20%;
-	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
-		height: 900px;
-		padding: 10px;
-		margin-top: 7px;
-    /* do tuk da se komentirat */
-	color: white;
-	text-shadow: 2px 0px #0a0;
-}
 
-.footer {
-	background-color:#0b0;
-	text-align:left;
-	margin-top: 1em;
-	margin-bottom: 0.2em;
-	float: left;
-	width: 50%;
-	color:#fff;
-	/* vertical-align:middle; */	
-	padding-left: 1em;
-}
-
-.footer2 {
-	background-color: #0b0;
-	text-align:right;
-	margin-top:1em;
-	margin-bottom: 0.2em;
-	float: left;
-	width: 45%;
-	height: 60px;
-	color: #fff;	
-	padding-right: 3.9em;
-}
-
-@media only screen and (max-width:1400px) {
-	.footer, .footer2 {
-	  width: 50%;
-	  height: 60px;
-  }
-  #img2 {
-	width: 50px;
-	height: 50px;
-  } 
-}
 
 @media only screen and (max-width:1000px) {
-#img2 {
-	
-	top: 405px;
-	left: 840px;
-	
-}
-}
-
-
-@media only screen and (max-width:800px) {
   /* For tablets: */
- 
- .header-text {
-	font-size: 2rem;
- }
- 
-  .menu {
-	  width: 23%;
+  .menuitem {
+	width: 30%;
+font-size: 10px;	
   }
- 
+  
+  #zagl {
+	  font-size: 20px;
+  }
+  
   .main {
-    width: 60%;
+    width: 95%;
     padding: 0;
   }
   .right {
-    width: 17%;
+    width: 100%;
   }
-  #bgcpo {
-	  width: 10%;
+  
+  #map2 {
+	
+	  width: 50%; 
+	  height: auto;
   }
-  .footer, .footer2 {
-	  width: 50%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .menuitem {
+	width: 32.5%;
+font-size: 10px;	
   }
-   
+  .menuitem1 {
+	width: 32.5%;
+font-size: 10px;	
+  }
+  
+  #zagl {
+	  font-size: 16px;
+  }
+  
+  #img {
+	  float: left;
+	  margin-right: 10px;
+  }
+  
+  .main {
+    width: 100%;
+    padding: 0px;
+  }
+  .right {
+    width: 100%;
+  }
+   #empty {
+	  height: 10px;
+	  width: 100%;
+  }
+  iframe {
+	  height: 180px;
+  }
+  
+  #map2 {
+	
+	  width: 50%; 
+	  height: auto;
+  }
+  
+  #zagl {
+	text-align: right;
+ }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  
-   .header-text {
-	font-size: 1.5rem;
- }
- 
-  .menu, .main, .right {
+  .menu, .main, .right, .menuitem, .menuitem1 {
     width: 100%;
   }
-  #img {
-	  width: 40%;
-	  height: 200px;
+  .main {
+	  padding: 0px;
+	  margin: 0px;
   }
-   #iframe {
-	  width: 90%;
-	  height: 80%;
-	  padding-left: 30px;
+  
+  .menuitem, .menuitem1 {
+	  margin: 2px 0px 0px 0px;
+	}
+  
+  .menuitem:last-child {
+	 margin: 2px 0px 2px 0px; 
   }
-  #logo {
-	  width: 75%;
-	  height: 200px;
-	  padding-left: 100px;
+  #bg {
+	  height: 150px;
   }
-  .footer, .footer2 {
-	  width: 50%;
+  
+  #empty {
+	  height: 3px;
+	  width: 100%;
   }
- 
- 
+  iframe {
+	  height: 180px;
+  }
+  #bg {
+	background-image: url('zagl2.jpg');
+}
+
+#img {
+	margin-top: 8px;
+}
+
+#zagl {
+	text-align: right;
+  text-shadow: 1px 2px green;
+}
+
+.butonl {
+	float: left;
+	margin-top: 50px;
+	margin-left: 2px;
+	margin-right: 2px;
+	
+
+} 
+
+.butonr {
+	
+	
+	margin-top: 50px;
+	margin-left: 2px;
+	margin-right: 2px;
+	
+}
+
+#myImage {
+	
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 20px;
+	width: 59%;
+}
+
+#myImage2 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 59%;
+}
+
+#myImage3 {
+	float: left;
+	margin-top: 20px;
+	margin-right: 1px;
+	margin-left: 1px;
+	width: 59%;
+}
 }
