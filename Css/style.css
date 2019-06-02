@@ -1,0 +1,461 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: url(../Images/fonposle1.jpg) fixed no-repeat; 
+	background-size: cover;
+	margin: 0 auto;
+	font-family: Cormorant, Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	height: 10%;
+	width: 100%;
+	display: block;
+	background-color: transparent;
+	border: 3px solid #0b0;
+}
+
+.header-text {
+	font-size: 2.3rem;
+	text-align: center;
+	text-shadow:2px 2px white;
+	color:#0A0;
+  
+}
+
+.menu {	
+	float: left;
+	width: 20%;
+	font-size: 1.5em;
+	font-weight: solid;
+	text-shadow: 2px 0px #0A0;
+	padding: 10px;
+	margin-top: 1em;
+    /* do tuk da se komentirat */
+	color: white;
+}
+.menuitem {
+	padding: 0.3em;
+	text-align: center;
+	border: 3px solid #0a0;
+	margin-top: 0.3em;
+}
+
+.menuitem1 {
+	text-align: center;
+	background-color: #07f;
+	padding: 0.3em;
+	margin-top: 0.3em;
+	border: 3px solid #0a0; 
+	
+}
+
+.menuitem:hover {
+	background-color: #07f;
+}
+
+#logo {
+	margin-left: 0.8em;
+	width: 80%;
+	height: auto;
+}
+
+#bgcpo {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#subtitle {
+	color: black;
+	text-align: center;
+}
+
+#img {
+	display: block;
+	width:80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img2 {
+	width: 5%;
+	height: 9%;
+	top: 90%;
+	left: 94.5%;
+	position: fixed;
+}
+
+#imgGeo {
+	 margin: auto 2em;
+	 width: 90%;
+	
+}
+
+#map {
+	margin-left: 12em;
+	padding: 2em auto;
+	cursor: zoom-in;
+}
+
+h5, h4, h3, h2, h1 {
+	color:white;
+	text-align: center;
+}
+
+
+#koza {
+	float: right;
+	padding-bottom: 5px;
+	width: 70%;
+	margin-left: 1em;
+}
+
+#edelweis {
+	 width: 400px;
+	float: left;
+	margin-right: 10px;
+}
+
+.main {
+	float: left;
+	width: 60%;
+	padding: 0.5em 1.5em;
+	margin-top: 0.8em;
+	overflow: hidden;
+	background-color:  #07f; 
+}
+
+.butonl {
+	float: left;
+	margin-right: 20px;
+	margin-top: 200px;
+} 
+
+.butonr {
+	float: right;
+	margin-top: 200px;
+}
+
+.butonl:hover {
+	opacity: 0.8;
+} 
+
+.butonr:hover {
+	opacity: 0.8;
+}
+
+#myImage2 {
+	margin-left: 7px;
+	margin-top: 20px;
+}
+
+#myImage3 {
+	margin-top: 20px;
+	margin-right: 7px;
+}
+
+.right {
+	float: left;
+	width: 20%;
+	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
+		height: 900px;
+		padding: 0.5em;
+		margin-top: 1.6em;
+    /* do tuk da se komentirat */
+	color: white;
+	text-shadow: 2px 0px #0a0;
+}
+
+.right-item:hover {
+	background-color: #07f;
+}
+
+
+.right-item {
+	font-size: 1.5em;
+	padding: 0.2em;
+	border: 3px solid #0a0;
+	font-size: 1.1em; 
+}
+
+.right-item1 {
+	font-size: 1.5em;
+	padding: 0.3em;
+	border: 3px solid #0a0;
+	font-size: 1.1em; 
+	background-color: #07f;
+}
+
+.right-item:first-child {
+	margin-bottom: 7px;
+}
+
+.footer {
+	position: relative;
+	background-color:#0b0;
+	text-align:left;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 100%;
+	color:#fff;
+	/* vertical-align:middle; */	
+	padding: 0.8em;
+	height: 70px;
+	z-index: -1;
+}
+
+#footer-right {
+	position: absolute;
+	bottom: 0.5em;
+	right: 5.5em;
+}
+
+#mail {
+	border: 1px solid blue;
+	background-color: lightblue;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+ 
+ .header-text {
+	font-size: 1.5rem;
+ }
+ 
+  .menu {
+	  width: 20%;
+	  
+	  float: left;
+	width: 20%;
+	font-size: 0.6em;
+	font-weight: solid;
+	text-shadow: 1px 0px #0A0;
+	padding: 1em;
+	margin-top: 0.6em;
+    /* do tuk da se komentirat */
+	color: white;
+  }
+ 
+  .main {
+    width: 60%;
+    padding: 1em;
+	font-size: 0.6em;
+  }
+  
+  h5, h4, h3, h1, h2 {
+	color:white;
+	text-align: center;
+	font-size: 1em;
+}
+
+#edelweis {
+	 width: 70%;
+	float: left;
+	margin-right: 1em;
+}
+
+#koza {
+	float: right;
+	padding-bottom: 5px;
+	width: 70%;
+	margin-left: 1em;
+}
+
+.right {
+    width: 20%;
+	
+	float: left;
+	
+	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
+		height: 800px;
+		padding: 1em;
+		margin-top: 0.6em;
+		font-size: 0.6em;
+    /* do tuk da se komentirat */
+	color: white;
+	text-shadow: 1px 0px #0a0;
+	 z-index: 1; 
+  }
+  .right-item {
+	
+  }
+  #bgcpo {
+	  width: 10%;
+  }
+ 
+ .footer {
+	position: relative;
+	background-color:#0b0;
+	  font-size: 0.6em;
+	text-align:left;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 100%;
+	color:#fff;
+	/* vertical-align:middle; */	
+	padding: 0.8em;
+	height: 5em;
+	z-index: -1;
+}
+
+#footer-right {
+	position: absolute;
+	bottom: 0.7em;
+	right: 6.4em;
+}
+ 
+  #map {
+	margin-left: 4em;
+}
+.right-item:first-child {
+	margin-bottom: 1px;
+}
+
+#img2 {
+	width: 6%;
+	height: 11%;
+	top: 88%;
+	left: 92.5%;
+	position: fixed;
+	
+}
+   
+}
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  
+   .header-text {
+	font-size: 1.3rem;
+ text-shadow:1px 1px white;
+ }
+ 
+  .menu, .main, .right {
+    width: 88%;
+	margin-left: 2px;
+  }
+  
+  .menu {	
+	
+	font-size: 1.2em;
+	text-shadow: 1px 0px #0A0;
+	padding: 5px;
+	margin-top: 0.5em;
+    
+}
+  
+  .menuitem1 {
+	
+	padding: 0.15em;
+	margin-top: 0.3em;
+	border: 2px solid #0a0; 
+	font-size: 0.6em;
+}
+  .menuitem {
+	padding: 0.15em;
+	margin-top: 0.3em;
+	border: 2px solid #0a0; 
+	font-size: 0.6em;
+}
+
+#edelweis {
+	 width: 60%;
+	float: left;
+	margin-right: 1em;
+}
+
+#koza {
+	float: right;
+	padding-bottom: 5px;
+	width: 60%;
+	margin-left: 1em;
+}
+
+  #img {
+	display: block;
+	width:60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+  #img2 {
+	width: 10%;
+	height: 17%;
+	top: 80.5%;
+	left: 89%;
+	position: fixed;	
+}
+
+	#imgGeo {
+	 margin: auto 2em;
+	 width: 85%;
+	
+}
+   #iframe {
+	  width: 90%;
+	  height: 80%;
+	  padding-left: 30px;
+  }
+  #logo {
+	  width: 75%;
+	  height: 200px;
+	  padding-left: 100px;
+  }
+
+.footer {
+	position: relative;
+	background-color:#0b0;
+	font-size: 0.5em;
+	text-align:left;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 100%;
+	color:#fff;
+	/* vertical-align:middle; */	
+	padding: 0.8em;
+		height: 35px;
+	z-index: -1;
+}
+
+#footer-right {
+	position: absolute;
+	bottom: 0.4em;
+	right: 5em;
+	font-size: 1em;
+}
+
+.right {
+    width: 89%;
+	float: left;
+	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
+		height: 380px;
+		padding: 0.7em;
+		margin-top: 1.6em;
+    /* do tuk da se komentirat */
+	color: white;
+	text-shadow: 1px 0px #0a0;
+}
+
+.right-item {
+	font-size: 1.2em;
+	padding: 1em;
+}
+
+.right-item:first-child {
+	margin-bottom: 30px;
+}
+ 
+ 
+}
