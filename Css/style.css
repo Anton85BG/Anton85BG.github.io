@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+
+/* Проба за това линковете да не излизат подчертани, а да се подчертават само при посочване с мишката върху тях*/
+
+
+
+
 body {
 	background: url(../Images/fonposle1.jpg) fixed no-repeat; 
 	background-size: cover;
@@ -46,6 +52,7 @@ a {
 	text-align: center;
 	border: 3px solid #0a0;
 	margin-top: 0.3em;
+	
 }
 
 .menuitem1 {
@@ -179,7 +186,6 @@ h5, h4, h3, h2, h1 {
 	background-color: #07f;
 }
 
-
 .right-item {
 	font-size: 1.5em;
 	padding: 0.2em;
@@ -200,30 +206,85 @@ h5, h4, h3, h2, h1 {
 }
 
 .footer {
-	position: relative;
 	background-color:#0b0;
 	text-align:left;
 	margin-top: 1em;
 	margin-bottom: 0.2em;
 	float: left;
-	width: 100%;
-	color:#fff;
-	/* vertical-align:middle; */	
+	width: 50%;
+	color:#fff;	
 	padding: 0.8em;
 	height: 70px;
-	z-index: -1;
 }
 
-#footer-right {
-	position: absolute;
-	bottom: 0.5em;
-	right: 5.5em;
+.footer2 {
+	background-color: #0b0;
+	text-align:right;
+	margin-top:1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 50%;
+	color: #fff;
+	padding-top: 0.8em;	
+	padding-right: 5.5em;
+	height: 70px;
 }
 
 #mail {
 	border: 1px solid blue;
 	background-color: lightblue;
 }
+
+
+@media only screen and (max-width:1000px) {
+
+/* For tablets: */
+
+#img2 {
+	width: 10%;
+	height: 17%;
+	top: 85.5%;
+	left: 93%;
+	position: fixed;
+}
+
+#koza {
+	float: right;
+	padding-bottom: 5px;
+	width: 70%;
+	margin-left: 1em;
+}
+
+#edelweis {
+	 width: 70%;
+	float: left;
+	margin: auto;
+}
+.footer {
+	background-color:#0b0;
+	text-align:left;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 50%;
+	color:#fff;
+	padding-left: 1em;
+}
+
+.footer2 {
+	background-color: #0b0;
+	text-align:right;
+	margin-top:1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 45%;
+	color: #fff;	
+	padding-right: 5em;
+	height: 30%;
+
+}
+}
+
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
@@ -233,16 +294,14 @@ h5, h4, h3, h2, h1 {
  }
  
   .menu {
-	  width: 20%;
-	  
-	  float: left;
+	 width: 20%;
+	 float: left;
 	width: 20%;
 	font-size: 0.6em;
 	font-weight: solid;
 	text-shadow: 1px 0px #0A0;
 	padding: 1em;
 	margin-top: 0.6em;
-    /* do tuk da se komentirat */
 	color: white;
   }
  
@@ -273,9 +332,7 @@ h5, h4, h3, h2, h1 {
 
 .right {
     width: 20%;
-	
 	float: left;
-	
 	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
 		height: 800px;
 		padding: 1em;
@@ -292,47 +349,35 @@ h5, h4, h3, h2, h1 {
   #bgcpo {
 	  width: 10%;
   }
- 
- .footer {
-	position: relative;
-	background-color:#0b0;
+  .footer, .footer2 {
+	  width: 50%;
+	  height: 4.5em;
 	  font-size: 0.6em;
-	text-align:left;
-	margin-top: 1em;
-	margin-bottom: 0.2em;
-	float: left;
-	width: 100%;
-	color:#fff;
-	/* vertical-align:middle; */	
-	padding: 0.8em;
-	height: 5em;
-	z-index: -1;
-}
-
-#footer-right {
-	position: absolute;
-	bottom: 0.7em;
-	right: 6.4em;
-}
- 
+	  padding-right: 6em;
+  }
+  .footer2 {
+	  z-index: -2; 
+  }
   #map {
 	margin-left: 4em;
 }
 .right-item:first-child {
 	margin-bottom: 1px;
+	 
+	z-index: 2;
 }
-
 #img2 {
-	width: 6%;
-	height: 11%;
-	top: 88%;
-	left: 92.5%;
+	width: 5.5%;
+	height: 10%;
+	top: 89%;
+	left: 94%;
 	position: fixed;
+	z-index: 0;
 	
 }
    
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
   
    .header-text {
@@ -392,7 +437,7 @@ h5, h4, h3, h2, h1 {
   #img2 {
 	width: 10%;
 	height: 17%;
-	top: 80.5%;
+	top: 79%;
 	left: 89%;
 	position: fixed;	
 }
@@ -412,28 +457,34 @@ h5, h4, h3, h2, h1 {
 	  height: 200px;
 	  padding-left: 100px;
   }
-
-.footer {
-	position: relative;
-	background-color:#0b0;
-	font-size: 0.5em;
+  
+  .footer {
+	 background-color: #0f0;
 	text-align:left;
-	margin-top: 1em;
+	margin-top: 0.1em;
 	margin-bottom: 0.2em;
 	float: left;
-	width: 100%;
-	color:#fff;
-	/* vertical-align:middle; */	
-	padding: 0.8em;
-		height: 35px;
-	z-index: -1;
+	width: 50%;
+	color:#fff;	
+	padding-left: 0.8em;
+	padding-top: 0.5em;
+	font-size: 0.5em;
+	height: 35px;
 }
 
-#footer-right {
-	position: absolute;
-	bottom: 0.4em;
-	right: 5em;
-	font-size: 1em;
+.footer2 {
+	 background-color: #0f0;
+	text-align:right;
+	margin-top:0.1em;
+	margin-bottom: 0.2em;
+	float: left;
+	width: 50%;
+	color: #fff;
+	font-size: 0.5em;
+	padding-right: 4em;
+	padding-top: 0.5em;
+	height: 35px;
+	
 }
 
 .right {
