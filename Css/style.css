@@ -4,7 +4,7 @@
 
 body {
 	background: url(../Images/fonposle1.jpg) fixed no-repeat; 
-	background-size: cover;
+	background-size: 100% 100%;
 	margin: 0 auto;
 	font-family: Cormorant, Tahoma, sans-serif;
 	font-size: 16px;
@@ -309,10 +309,10 @@ font-size: 0.6em;
 }
 
 #img2 {
-	width: 9.5%;
-	height: 9%;
-	top: 90%;
-	left: 89%;
+	width: 10%;
+	height: 10%;
+	top: 89%;
+	left: 88%;
 	position: fixed;
 }
 
