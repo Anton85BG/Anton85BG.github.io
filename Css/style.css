@@ -137,14 +137,14 @@ h5, h4, h3, h2, h1 {
 #koza {
 	float: right;
 	padding-bottom: 5px;
-	width: 70%;
+	width: 40%;
 	margin-left: 1em;
 }
 
 #edelweis {
-	 width: 400px;
+	 width: 40%;
 	float: left;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .butonl {
