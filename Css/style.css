@@ -123,8 +123,7 @@ a {
 }
 
 #map {
-	margin-left: 12em;
-	padding: 2em auto;
+	margin: 5px auto;
 	cursor: zoom-in;
 }
 
