@@ -148,11 +148,13 @@ h5, h4, h3, h2, h1 {
 }
 
 .butonl {
+	padding: 1px;
 	float: left;
 	margin-top: 10%;
 } 
 
 .butonr {
+	padding: 1px;
 	float: right;
 	margin-top: 10%;
 	
@@ -166,15 +168,6 @@ h5, h4, h3, h2, h1 {
 	opacity: 0.8;
 }
 
-/* #myImage2 { */
-	/* margin-left: 7px; */
-	/* margin-top: 20px; */
-/* } */
-
-/* #myImage3 { */
-	/* margin-top: 20px; */
-	/* margin-right: 7px; */
-/* } */
 
 .right-item:hover {
 	background-color: #07f;
