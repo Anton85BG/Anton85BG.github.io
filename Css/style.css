@@ -139,6 +139,10 @@ h5, h4, h3, h2, h1 {
 	margin-right: 10px;
 }
 
+.myImage, .myImage2, .myImage3 {
+	width: 240px;
+}
+
 .butonl {
 	padding: 1px;
 	float: left;
@@ -148,8 +152,7 @@ h5, h4, h3, h2, h1 {
 .butonr {
 	padding: 1px;
 	float: right;
-	margin-top: 15%;
-	
+	margin-top: 15%;	
 }
 
 .butonl:hover {
@@ -206,6 +209,25 @@ h5, h4, h3, h2, h1 {
 	left: 96%;
 	position: fixed;
 }
+
+.butonl {
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20%;
+} 
+
+.butonr {
+	padding: 10px;
+	float: right;
+	margin-top: 20%;
+	margin-right: 20px;
+	
+}
+
+.myImage, .myImage2, .myImage3 {
+	width: 650px;
+}
 }
 
 @media only screen and (max-width:1400px) {
@@ -216,6 +238,22 @@ h5, h4, h3, h2, h1 {
 	top: 89%;
 	left: 94%;
 	position: fixed;
+}
+
+.myImage, .myImage2, .myImage3 {
+	width: 240px;
+}
+
+.butonl {
+	padding: 1px;
+	float: left;
+	margin-top: 15%;
+} 
+
+.butonr {
+	padding: 1px;
+	float: right;
+	margin-top: 15%;	
 }
 }
 
@@ -385,5 +423,21 @@ font-size: 0.6em;
 	left: 85%;
 	position: fixed;
 }
+
+.myImage, .myImage2, .myImage3 {
+	width: 200px;
 }
 
+.butonl {
+	float: left;
+	margin: 0;
+	margin-top: 15%;
+	
+} 
+
+.butonr {
+	float: right;
+	margin: 0;
+	margin-top: 15%;	
+}
+}
