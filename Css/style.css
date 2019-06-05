@@ -234,8 +234,8 @@ h5, h4, h3, h2, h1 {
 
 #img2 {
 	width: 7%;
-	height: 7%;
-	top: 92.5%;
+	height: 13%;
+	top: 82.5%;
 	left: 91.5%;
 	position: fixed;
 }
@@ -356,6 +356,34 @@ font-size: 0.6em;
 	color:#fff;
 	z-index: -1;
 	height: 70px;
+}
+}
+
+@media only screen and (max-width:400px) {
+	body {
+	background: url(../Images/backgr.jpg) fixed no-repeat; 
+	background-size: cover;
+	margin: 0 auto;
+	font-family: Cormorant, Tahoma, sans-serif;
+	font-size: 16px;
+	display: grid;
+	grid-template-areas:
+	'header header header header header header'
+	'menu menu menu menu menu menu'
+	'main main main main main main'
+	'right-bar right-bar right-bar right-bar right-bar right-bar'
+	'footer footer footer footer footer footer';
+	grid-gap: 5px;
+	padding: 5px;
+font-size: 0.6em;	
+}
+
+#img2 {
+	width: 12.5%;
+	height: 9%;
+	top: 88%;
+	left: 85%;
+	position: fixed;
 }
 }
 
