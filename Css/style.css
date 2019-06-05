@@ -337,7 +337,7 @@ font-size: 0.6em;
 }
 
 .myImage, .myImage2, .myImage3 {
-	width: 240px;
+	width: 140px;
 }
 
 .butonl {
@@ -391,7 +391,7 @@ font-size: 0.6em;
 }
 
 .myImage, .myImage2, .myImage3 {
-	width: 240px;
+	width: 200px;
 }
 
 .butonl {
@@ -434,7 +434,7 @@ font-size: 0.6em;
 @media only screen and (max-width:400px) {
 	body {
 	background: url(../Images/backgr.jpg) fixed no-repeat; 
-	background-size: cover;
+	background-size: contain;
 	margin: 0 auto;
 	font-family: Cormorant, Tahoma, sans-serif;
 	font-size: 16px;
@@ -459,7 +459,7 @@ font-size: 0.6em;
 }
 
 .myImage, .myImage2, .myImage3 {
-	width: 200px;
+	width: 120px;
 }
 
 .butonl {
