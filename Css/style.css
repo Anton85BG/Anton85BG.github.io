@@ -21,7 +21,7 @@ a {
 	text-decoration: none;
 }
 
-/* za grid layouta*/
+/* nachalo na grid layouta*/
 
 .header {
 	grid-area: header;
@@ -35,7 +35,6 @@ a {
 	font-weight: solid;
 	text-shadow: 2px 0px #0A0;
 	margin-top: 1em;
-    /* do tuk da se komentirat */
 	color: white;
 }
 
@@ -48,9 +47,7 @@ a {
 
 .right-bar {
 	grid-area: right-bar;
-	/* sledwashtite tri mozhe da se komentirat za da se oprawi dqsnoto menu */
-		margin-top: 1.6em;
-    /* do tuk da se komentirat */
+	margin-top: 1.6em;
 	color: white;
 	text-shadow: 2px 0px #0a0;
 }
@@ -62,7 +59,6 @@ a {
 	background-color:#0a0;
 	text-align:left;
 	color:#fff;
-	/* vertical-align:middle; */
 	z-index: -1;
 }
 
@@ -73,7 +69,6 @@ a {
 	text-align: center;
 	text-shadow:2px 2px white;
 	color:#0A0;
-  
 }
 
 .menuitem {
@@ -89,7 +84,6 @@ a {
 	padding: 0.3em;
 	margin-top: 0.3em;
 	border: 3px solid #0a0; 
-	
 }
 
 .menuitem:hover {
@@ -119,7 +113,6 @@ a {
 #imgGeo {
 	 margin: auto 2em;
 	 width: 90%;
-	
 }
 
 #map {
@@ -202,6 +195,27 @@ h5, h4, h3, h2, h1 {
 #mail {
 	border: 1px solid blue;
 	background-color: lightblue;
+}
+
+@media only screen and (max-width:2800px) {
+
+#footer-right {
+	position: absolute;
+	bottom: 2em;
+	right: 8em;
+}
+
+
+.footer {
+	grid-area: footer;
+	padding: 10px;
+	position: relative;
+	background-color:#0a0;
+	text-align:left;
+	color:#fff;
+	z-index: -1;
+	height: 100px;
+}
 }
 
 @media only screen and (max-width:1200px) {
@@ -339,7 +353,6 @@ font-size: 0.6em;
 	background-color:#0a0;
 	text-align:left;
 	color:#fff;
-	/* vertical-align:middle; */
 	z-index: -1;
 	height: 70px;
 }
