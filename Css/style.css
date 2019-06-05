@@ -139,7 +139,7 @@ h5, h4, h3, h2, h1 {
 	margin-right: 10px;
 }
 
-.myImage, .myImage2, .myImage3 {
+#myImage, #myImage2, #myImage3 {
 	width: 240px;
 }
 
@@ -225,7 +225,7 @@ h5, h4, h3, h2, h1 {
 	
 }
 
-.myImage, .myImage2, .myImage3 {
+#myImage, #myImage2, #myImage3 {
 	width: 650px;
 }
 }
@@ -240,7 +240,7 @@ h5, h4, h3, h2, h1 {
 	position: fixed;
 }
 
-.myImage, .myImage2, .myImage3 {
+#myImage, #myImage2, #myImage3 {
 	width: 240px;
 }
 
@@ -336,8 +336,8 @@ font-size: 0.6em;
 	position: fixed;
 }
 
-.myImage, .myImage2, .myImage3 {
-	width: 140px;
+#myImage, #myImage2, #myImage3 {
+	width: 300px;
 }
 
 .butonl {
@@ -390,8 +390,8 @@ font-size: 0.6em;
 	position: fixed;
 }
 
-.myImage, .myImage2, .myImage3 {
-	width: 200px;
+#myImage, #myImage2, #myImage3 {
+	width: 250px;
 }
 
 .butonl {
@@ -458,8 +458,8 @@ font-size: 0.6em;
 	position: fixed;
 }
 
-.myImage, .myImage2, .myImage3 {
-	width: 120px;
+#myImage, #myImage2, #myImage3 {
+	width: 150px;
 }
 
 .butonl {
