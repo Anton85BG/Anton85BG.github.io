@@ -204,6 +204,11 @@ h5, h4, h3, h2, h1 {
 	bottom: 1em;
 	right: 10em;
 }
+	#footer-left {
+	text-align: left;
+	padding-left: 10px;
+		padding-top: 25px;
+}
 
 
 .footer {
@@ -214,7 +219,7 @@ h5, h4, h3, h2, h1 {
 	text-align:left;
 	color:#fff;
 	z-index: -1;
-	height: 100px;
+	height: 11%;
 }
 }
 
