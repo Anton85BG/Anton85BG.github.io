@@ -336,6 +336,22 @@ font-size: 0.6em;
 	position: fixed;
 }
 
+.myImage, .myImage2, .myImage3 {
+	width: 240px;
+}
+
+.butonl {
+	padding: 1px;
+	float: left;
+	margin-top: 15%;
+} 
+
+.butonr {
+	padding: 1px;
+	float: right;
+	margin-top: 15%;	
+}
+
 #footer-right {
 	position: absolute;
 	bottom: 1em;
@@ -372,6 +388,24 @@ font-size: 0.6em;
 	top: 87%;
 	left: 84%;
 	position: fixed;
+}
+
+.myImage, .myImage2, .myImage3 {
+	width: 240px;
+}
+
+.butonl {
+	padding: 1px;
+	float: left;
+	margin: 0;
+	margin-top: 15%;
+} 
+
+.butonr {
+	padding: 1px;
+	float: right;
+	margin: 0;
+	margin-top: 15%;	
 }
 
 #footer-right {
