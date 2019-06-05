@@ -52,6 +52,10 @@ a {
 	text-shadow: 2px 0px #0a0;
 }
 
+.right-bar a {
+color: white;
+}
+
 .footer {
 	grid-area: footer;
 	padding: 10px;
