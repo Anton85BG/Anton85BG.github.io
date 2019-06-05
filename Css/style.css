@@ -139,20 +139,20 @@ h5, h4, h3, h2, h1 {
 	margin-right: 10px;
 }
 
-#myImage, #myImage2, #myImage3 {
-	width: 240px;
+.myImage, .myImage2, .myImage3 {
+	width: 55%;
 }
 
 .butonl {
-	padding: 1px;
+	padding: 0.5em;
 	float: left;
-	margin-top: 25%;
+	margin: 15% 0 0 2%;
 } 
 
 .butonr {
-	padding: 1px;
+	padding: 0.5em;
 	float: right;
-	margin-top: 25%;	
+	margin: 15% 2% 0 0;	
 }
 
 .butonl:hover {
@@ -209,25 +209,6 @@ h5, h4, h3, h2, h1 {
 	left: 96%;
 	position: fixed;
 }
-
-.butonl {
-	padding: 10px;
-	float: left;
-	margin-left: 20px;
-	margin-top: 25%;
-} 
-
-.butonr {
-	padding: 10px;
-	float: right;
-	margin-top: 25%;
-	margin-right: 20px;
-	
-}
-
-#myImage, #myImage2, #myImage3 {
-	width: 650px;
-}
 }
 
 @media only screen and (max-width:1400px) {
@@ -238,22 +219,6 @@ h5, h4, h3, h2, h1 {
 	top: 89%;
 	left: 94%;
 	position: fixed;
-}
-
-#myImage, #myImage2, #myImage3 {
-	width: 450px;
-}
-
-.butonl {
-	padding: 1px;
-	float: left;
-	margin-top: 20%;
-} 
-
-.butonr {
-	padding: 1px;
-	float: right;
-	margin-top: 20%;	
 }
 }
 
@@ -336,22 +301,6 @@ font-size: 0.6em;
 	position: fixed;
 }
 
-#myImage, #myImage2, #myImage3 {
-	width: 300px;
-}
-
-.butonl {
-	padding: 1px;
-	float: left;
-	margin-top: 15%;
-} 
-
-.butonr {
-	padding: 1px;
-	float: right;
-	margin-top: 15%;	
-}
-
 #footer-right {
 	position: absolute;
 	bottom: 1em;
@@ -388,24 +337,6 @@ font-size: 0.6em;
 	top: 87%;
 	left: 84%;
 	position: fixed;
-}
-
-#myImage, #myImage2, #myImage3 {
-	width: 250px;
-}
-
-.butonl {
-	padding: 1px;
-	float: left;
-	margin: 0;
-	margin-top: 10%;
-} 
-
-.butonr {
-	padding: 1px;
-	float: right;
-	margin: 0;
-	margin-top: 10%;	
 }
 
 #footer-right {
@@ -456,22 +387,5 @@ font-size: 0.6em;
 	top: 88%;
 	left: 85%;
 	position: fixed;
-}
-
-#myImage, #myImage2, #myImage3 {
-	width: 150px;
-}
-
-.butonl {
-	float: left;
-	margin: 0;
-	margin-top: 10%;
-	
-} 
-
-.butonr {
-	float: right;
-	margin: 0;
-	margin-top: 10%;	
 }
 }
