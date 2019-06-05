@@ -398,14 +398,14 @@ font-size: 0.6em;
 	padding: 1px;
 	float: left;
 	margin: 0;
-	margin-top: 15%;
+	margin-top: 10%;
 } 
 
 .butonr {
 	padding: 1px;
 	float: right;
 	margin: 0;
-	margin-top: 15%;	
+	margin-top: 10%;	
 }
 
 #footer-right {
@@ -465,13 +465,13 @@ font-size: 0.6em;
 .butonl {
 	float: left;
 	margin: 0;
-	margin-top: 15%;
+	margin-top: 10%;
 	
 } 
 
 .butonr {
 	float: right;
 	margin: 0;
-	margin-top: 15%;	
+	margin-top: 10%;	
 }
 }
