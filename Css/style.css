@@ -139,7 +139,7 @@ h5, h4, h3, h2, h1 {
 	margin-right: 10px;
 }
 
-.myImage, .myImage2, .myImage3 {
+#myImage, #myImage2, #myImage3 {
 	width: 55%;
 }
 
