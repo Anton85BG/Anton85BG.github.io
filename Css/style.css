@@ -197,6 +197,28 @@ h5, h4, h3, h2, h1 {
 	background-color: lightblue;
 }
 
+@media only screen and (max-width:2400px) {
+
+#img2 {
+	width: 3%;
+	height: 5%;
+	top: 95%;
+	left: 96%;
+	position: fixed;
+}
+}
+
+@media only screen and (max-width:1400px) {
+
+#img2 {
+	width: 5%;
+	height: 9%;
+	top: 89%;
+	left: 94%;
+	position: fixed;
+}
+}
+
 @media only screen and (max-width:1200px) {
 
 #img2 {
